@@ -1,0 +1,27 @@
+:root{
+    --background-color: #020303;
+    --text-color: #ffffff;
+    --input-background-color: #1a1a1a;
+    --btn-secondary-background-color: #da1313;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+input{
+    background-color: var(--input-background-color);
+    color: var(--text-color);
+}
+textarea{
+    background-color: var(--input-background-color);
+    color: var(--text-color);
+}
+.form-control{
+    background-color: var(--input-background-color);
+    color: var(--text-color);
+}
+.btn-secondary{
+    background-color: var(--btn-secondary-background-color);
+    color: var(--text-color);
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <title>Assignment 4</title>
+    </head>
+    <body>
+        <h1>Assignment 4</h1>
+
+        <h3>Task 0,1</h3>
+        <form method="post">
+            <label for="name1">Name:</label>
+            <input required maxlength="100" type="text" name="name1" placeholder="Enter your name">
+            <label for="email1">Email:</label>
+            <input required maxlength="100" type="email" name="email1" placeholder="Enter your email">
+            <label for="message1">Message:</label>
+            <textarea required maxlength="255" name="message1" placeholder="Enter your message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <h3>Task 2,3</h3>
+        <form class="needs-validation" novalidate>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name:</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required maxlength="100">
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message:</label>
+                            <textarea class="form-control" id="message" name="message" placeholder="Enter your message" required maxlength="255"></textarea>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <h3>Task 4</h3>
+        <form class="needs-validation" novalidate>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="first_name" class="form-label">First Name:</label>
+                            <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Enter your first name" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="last_name" class="form-label">Last Name:</label>
+                            <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Enter your last name" required>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="task4_email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="task4_email" name="task4_email" placeholder="Enter your email" required maxlength="100">
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password:</label>
+                            <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required autocomplete="new-password" minlength="8">
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="password-confirm" class="form-label">Confirm Password:</label>
+                            <input type="password" class="form-control" id="password-confirm" name="password-confirm" placeholder="Confirm your password" required autocomplete="new-password" minlength="8">
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="hobbies" class="form-label">Hobbies:</label>
+                            <div class="form-check">
+                                <div>
+                                    <input class="form-check-input" type="checkbox" value="reading" id="hobby1" name="hobby1">
+                                    <label class="form-check-label" for="hobby1">Reading</label>
+                                </div>
+                                <div>
+                                    <input class="form-check-input" type="checkbox" value="baseball" id="hobby2" name="hobby2">
+                                    <label class="form-check-label" for="hobby2">Baseball</label>
+                                </div>
+                                <div>
+                                    <input class="form-check-input" type="checkbox" value="boxing" id="hobby3" name="hobby3">
+                                    <label class="form-check-label" for="hobby3">Boxing</label>
+                                </div>
+                                <div>
+                                    <input class="form-check-input" type="checkbox" value="swimming" id="hobby4" name="hobby4">
+                                    <label class="form-check-label" for="hobby4">Swimming</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="gender" class="form-label">Gender:</label>
+                            <div>
+                                <input type="radio" id="male" name="gender" value="male" required>
+                                <label class="form-check-label" for="male">Male</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="female" name="gender" value="female" required>
+                                <label class="form-check-label" for="female">Female</label>
+                            </div>
+                            <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                    </div>
+                    <div class="mb-3 mr-3">
+                        <label class="form-label select-label">Country</label>
+                        <select data-mbd-select-init>
+                            <option selected disabled value="">Select your country</option>
+                            <option value="kazakhstan">Kazakhstan</option>
+                            <option value="russia">Russia</option>
+                            <option value="usa">USA</option>
+                            <option value="china">China</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                        <button type="submit" class="btn btn-primary" onclick="passValidation()">Submit</button>
+                        </div>
+                        <div class="col">
+                            <button type="reset" class="btn btn-secondary">Reset</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+
+
+    </body>
+</html>
+<script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+    'use strict'
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+            }
+
+            form.classList.add('was-validated')
+        }, false)
+        })
+    })()
+</script>
+<script>
+        function passValidation() {
+            var passValue = document.getElementById("password")
+            var confpassValue = document.getElementById("confirmPassword")
+            if(passValue != confpassValue) {
+               window.alert("Passwords do not match!")
+            }
+        }
+</script>
