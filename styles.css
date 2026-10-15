@@ -8,6 +8,8 @@
 body{
     background-color: var(--background-color);
     color: var(--text-color);
+    margin: 0 auto;
+    max-width: 1200px;
 }
 input{
     background-color: var(--input-background-color);
@@ -24,4 +26,7 @@ textarea{
 .btn-secondary{
     background-color: var(--btn-secondary-background-color);
     color: var(--text-color);
+}
+h3{
+    text-align: center;
 }
